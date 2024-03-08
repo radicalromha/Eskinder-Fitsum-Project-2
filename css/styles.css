@@ -17,6 +17,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f1f1f1;
+  vertical-align: middle;
 }
 
 .container {
@@ -59,7 +60,6 @@ img {
   max-width: 100%;
 }
 
-/* Specific styles */
 #interests {
   background-color: #ffb74d;
   padding: 20px;
@@ -88,7 +88,7 @@ img {
 .leadership-activities,
 .skills-interests,
 .supreme-cases {
-  background-color: #fff;
+  background-color: #3aa9ff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
