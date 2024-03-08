@@ -1,21 +1,34 @@
-* {
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+header,
+nav,
+section {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
+/* Global styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f2f2f2;
-  margin: 0;
-  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
-  background-color: #333;
+  background-color: #3f51b5;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 0;
 }
 
 nav ul {
@@ -32,85 +45,62 @@ nav ul li a {
   color: #fff;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
+h1,
+h2 {
+  margin-top: 20px;
+  color: #3f51b5;
 }
 
 section {
-  background-color: #fff;
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-top: 20px;
 }
 
-section img {
+img {
   max-width: 100%;
-  height: auto;
 }
 
-h1,
-h2 {
-  color: #333;
+/* Specific styles */
+#interests {
+  background-color: #ffb74d;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-p {
+#resume {
+  background-color: #64b5f6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cases {
+  background-color: #4caf50;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info,
+.education,
+.employment,
+.project-experience,
+.leadership-activities,
+.skills-interests,
+.supreme-cases {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p,
+.education p,
+.employment p {
   margin-bottom: 10px;
 }
 
-#Contact,
-#Education,
-#Employment,
-#Experience,
-#Leadership,
-#Skills {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-}
-
-#Contact h2,
-#Education h2,
-#Employment h2,
-#Experience h2,
-#Leadership h2,
-#Skills h2 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-#Contact p,
-#Education p,
-#Employment p,
-#Experience li,
-#Leadership p,
-#Skills li {
-  margin-bottom: 10px;
-}
-
-#Experience ul {
-  list-style-type: none;
-}
-
-#Experience ul li {
-  margin-bottom: 20px;
-}
-
-#First,
-#Second,
-#Third {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-}
-
-#First h2,
-#Second h2,
-#Third h2 {
-  color: #333;
-  margin-bottom: 10px;
-}
-
-#First p,
-#Second p,
-#Third p {
-  margin-bottom: 10px;
+.skills-interests ul li {
+  margin-bottom: 5px;
 }
