@@ -48,3 +48,69 @@ section img {
   max-width: 100%;
   height: auto;
 }
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+#Contact,
+#Education,
+#Employment,
+#Experience,
+#Leadership,
+#Skills {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+#Contact h2,
+#Education h2,
+#Employment h2,
+#Experience h2,
+#Leadership h2,
+#Skills h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#Contact p,
+#Education p,
+#Employment p,
+#Experience li,
+#Leadership p,
+#Skills li {
+  margin-bottom: 10px;
+}
+
+#Experience ul {
+  list-style-type: none;
+}
+
+#Experience ul li {
+  margin-bottom: 20px;
+}
+
+#First,
+#Second,
+#Third {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+#First h2,
+#Second h2,
+#Third h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#First p,
+#Second p,
+#Third p {
+  margin-bottom: 10px;
+}
