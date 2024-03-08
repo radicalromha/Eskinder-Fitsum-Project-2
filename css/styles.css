@@ -17,3 +17,34 @@ header {
   color: #fff;
   padding: 10px 20px;
 }
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
