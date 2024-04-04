@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.6;
-  background-color: #2bfa4e;
+  background-color: #37c04e;
 }
 
 .container {
@@ -50,6 +50,8 @@ h2 {
 
 section {
   margin-top: 20px;
+  border: 6px solid #000;
+  border-radius: 5px;
 }
 
 img {
