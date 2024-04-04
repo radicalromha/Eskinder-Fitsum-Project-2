@@ -1,26 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-html,
-body,
-ul,
-li,
-h1,
-h2,
-p,
-header,
-nav,
-section {
+/* Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   line-height: 1.6;
   background-color: #2bfa4e;
-  vertical-align: middle;
-  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -35,6 +24,10 @@ header {
   padding: 10px 0;
 }
 
+nav {
+  text-align: center;
+}
+
 nav ul {
   list-style-type: none;
 }
@@ -46,7 +39,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
 }
 
 h1,
@@ -63,27 +56,9 @@ img {
   max-width: 100%;
 }
 
-#interests {
-  background-color: #ffb74d;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#resume {
-  background-color: #64b5f6;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#cases {
-  background-color: #4caf50;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
+#interests,
+#resume,
+#cases,
 .contact-info,
 .education,
 .employment,
